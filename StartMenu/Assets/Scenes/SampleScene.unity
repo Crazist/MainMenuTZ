@@ -475,7 +475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1176.9995}
+  m_AnchoredPosition: {x: 0, y: -1176.9993}
   m_SizeDelta: {x: -850, y: -1177}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &90951293
@@ -521,7 +521,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1982582373}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5423728
+  m_Size: 0.48210916
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2122,6 +2122,7 @@ GameObject:
   - component: {fileID: 461810235}
   - component: {fileID: 461810234}
   - component: {fileID: 461810236}
+  - component: {fileID: 461810237}
   m_Layer: 5
   m_Name: Command staff
   m_TagString: Untagged
@@ -2228,7 +2229,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 461810234}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 461810237}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &461810237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461810232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db25366914741447abcd78ece79a79f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &463093982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,6 +2265,7 @@ GameObject:
   - component: {fileID: 463093985}
   - component: {fileID: 463093984}
   - component: {fileID: 463093986}
+  - component: {fileID: 463093987}
   m_Layer: 5
   m_Name: Ministry of sport
   m_TagString: Untagged
@@ -2347,7 +2372,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 463093984}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 463093987}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &463093987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463093982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec1cc1caa0a7a5438964fc6e7587346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &484518750
 GameObject:
   m_ObjectHideFlags: 0
@@ -3563,6 +3611,7 @@ GameObject:
   - component: {fileID: 666575588}
   - component: {fileID: 666575587}
   - component: {fileID: 666575589}
+  - component: {fileID: 666575590}
   m_Layer: 5
   m_Name: National Guard
   m_TagString: Untagged
@@ -3669,7 +3718,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 666575587}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 666575590}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &666575590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666575585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86fb12d42b9c1c41aa6bcff2c87d031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4671,6 +4743,7 @@ GameObject:
   - component: {fileID: 901206873}
   - component: {fileID: 901206872}
   - component: {fileID: 901206874}
+  - component: {fileID: 901206875}
   m_Layer: 5
   m_Name: Housing and utilities infrastructure
   m_TagString: Untagged
@@ -4777,7 +4850,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 901206872}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 901206875}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &901206875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901206870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b04cb28cbfd08d246b5a3e1967e6638d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &907133258
 GameObject:
   m_ObjectHideFlags: 0
@@ -4790,6 +4886,7 @@ GameObject:
   - component: {fileID: 907133261}
   - component: {fileID: 907133260}
   - component: {fileID: 907133262}
+  - component: {fileID: 907133263}
   m_Layer: 5
   m_Name: Population
   m_TagString: Untagged
@@ -4896,7 +4993,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 907133260}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 907133263}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &907133263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907133258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67d6bae5ebf1d34bbac3645ec791662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &915588049
 GameObject:
   m_ObjectHideFlags: 0
@@ -5367,6 +5487,7 @@ GameObject:
   - component: {fileID: 976089553}
   - component: {fileID: 976089552}
   - component: {fileID: 976089554}
+  - component: {fileID: 976089555}
   m_Layer: 5
   m_Name: Ministry of Foreign Affairs
   m_TagString: Untagged
@@ -5473,7 +5594,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 976089552}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 976089555}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &976089555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976089550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38d323f87f9cc84699182762c66826d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &999042047
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,6 +7260,7 @@ GameObject:
   - component: {fileID: 1319126393}
   - component: {fileID: 1319126396}
   - component: {fileID: 1319126395}
+  - component: {fileID: 1319126394}
   m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
@@ -7143,6 +7288,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
+--- !u!114 &1319126394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319126392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
 --- !u!114 &1319126395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7893,6 +8051,7 @@ GameObject:
   - component: {fileID: 1404019703}
   - component: {fileID: 1404019702}
   - component: {fileID: 1404019704}
+  - component: {fileID: 1404019705}
   m_Layer: 5
   m_Name: Troops
   m_TagString: Untagged
@@ -7999,7 +8158,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1404019702}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1404019705}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1404019705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404019700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a15b5b53ecb7fa4b87abe8d776884d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1405281501
 GameObject:
   m_ObjectHideFlags: 0
@@ -8235,6 +8417,7 @@ GameObject:
   - component: {fileID: 1411151671}
   - component: {fileID: 1411151670}
   - component: {fileID: 1411151672}
+  - component: {fileID: 1411151673}
   m_Layer: 5
   m_Name: Ministry of Culture
   m_TagString: Untagged
@@ -8341,7 +8524,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1411151670}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1411151673}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1411151673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411151668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def21fff0d48cea4c977fdcb2e21e24c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1411420771
 GameObject:
   m_ObjectHideFlags: 0
@@ -8947,6 +9153,7 @@ GameObject:
   - component: {fileID: 1535330672}
   - component: {fileID: 1535330671}
   - component: {fileID: 1535330673}
+  - component: {fileID: 1535330674}
   m_Layer: 5
   m_Name: Security Service
   m_TagString: Untagged
@@ -9053,7 +9260,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1535330671}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1535330674}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1535330674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535330669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 523e8e000d6a52b4c94e99202b8de751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1549235094
 GameObject:
   m_ObjectHideFlags: 0
@@ -9960,6 +10190,7 @@ GameObject:
   - component: {fileID: 1738217448}
   - component: {fileID: 1738217447}
   - component: {fileID: 1738217449}
+  - component: {fileID: 1738217450}
   m_Layer: 5
   m_Name: Ministry of Health
   m_TagString: Untagged
@@ -10066,7 +10297,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1738217447}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1738217450}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1738217450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738217445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8879bed8ee98d4f4cbc77d92b18c9ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1741633049
 GameObject:
   m_ObjectHideFlags: 0
@@ -10341,6 +10595,7 @@ GameObject:
   - component: {fileID: 1782250792}
   - component: {fileID: 1782250791}
   - component: {fileID: 1782250793}
+  - component: {fileID: 1782250794}
   m_Layer: 5
   m_Name: Police
   m_TagString: Untagged
@@ -10447,7 +10702,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1782250791}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1782250794}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1782250794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782250789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f38955741c1c834a84837bb5d830232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1786269217
 GameObject:
   m_ObjectHideFlags: 0
@@ -10538,6 +10816,7 @@ GameObject:
   - component: {fileID: 1788534278}
   - component: {fileID: 1788534277}
   - component: {fileID: 1788534279}
+  - component: {fileID: 1788534280}
   m_Layer: 5
   m_Name: Ministry of Defence
   m_TagString: Untagged
@@ -10644,7 +10923,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1788534277}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1788534280}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1788534280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788534275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95036f926ceaf854bbdde4da969b5d70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1836257551
 GameObject:
   m_ObjectHideFlags: 0
@@ -10971,6 +11273,7 @@ GameObject:
   - component: {fileID: 1864302548}
   - component: {fileID: 1864302547}
   - component: {fileID: 1864302549}
+  - component: {fileID: 1864302550}
   m_Layer: 5
   m_Name: Religion
   m_TagString: Untagged
@@ -11077,7 +11380,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1864302547}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1864302550}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1864302550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864302545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf07f8c7dc5f1f4e8a27c57ff5fcc20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1876112312
 GameObject:
   m_ObjectHideFlags: 0
@@ -11250,6 +11576,7 @@ GameObject:
   - component: {fileID: 1881450914}
   - component: {fileID: 1881450913}
   - component: {fileID: 1881450915}
+  - component: {fileID: 1881450916}
   m_Layer: 5
   m_Name: Environment
   m_TagString: Untagged
@@ -11356,7 +11683,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1881450913}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1881450916}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1881450916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881450911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815b41314c042974bb44c7e250b29a67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1890948144
 GameObject:
   m_ObjectHideFlags: 0
@@ -11596,6 +11946,7 @@ GameObject:
   - component: {fileID: 1979972880}
   - component: {fileID: 1979972879}
   - component: {fileID: 1979972881}
+  - component: {fileID: 1979972882}
   m_Layer: 5
   m_Name: United Nations
   m_TagString: Untagged
@@ -11702,7 +12053,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1979972879}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1979972882}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1979972882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979972877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefcd56ef04204f49afd4cd3e7279976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1982250744
 GameObject:
   m_ObjectHideFlags: 0
@@ -12005,6 +12379,7 @@ GameObject:
   - component: {fileID: 2109718672}
   - component: {fileID: 2109718671}
   - component: {fileID: 2109718673}
+  - component: {fileID: 2109718674}
   m_Layer: 5
   m_Name: Statistics
   m_TagString: Untagged
@@ -12111,7 +12486,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2109718671}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2109718674}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2109718674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109718669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293da8d043765fc43a79218981fc8348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2110166246
 GameObject:
   m_ObjectHideFlags: 0
