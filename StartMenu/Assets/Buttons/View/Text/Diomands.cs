@@ -15,6 +15,6 @@ public class Diomands : MonoBehaviour
 
     private void CangeValue()
     {
-        Debug.Log("Null"); // Метод для изменения количества золота извне;
+        Debug.Log("Null"); // Метод для изменения количества diomands извне;
     }
 }
